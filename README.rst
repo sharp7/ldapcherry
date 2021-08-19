@@ -82,7 +82,8 @@ The default backend plugins permit to manage Ldap and Active Directory.
 .. sourcecode:: bash
 
     # clone the repository
-    $ git clone https://github.com/kakwa/ldapcherry && cd ldapcherry
+    $ cd /var/tmp
+    $ git clone https://github.com/kakwa/ldapcherry -b multivalued_attributes && cd ldapcherry
 
     # change the directory where to put the configuration (default: /etc)
     $ export SYSCONFDIR=/etc
